@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Brace Liu: 540070866,Charlie Wilson: 540717178, Dan Samad: 5206245132, Ellery Prescott: 540697870, Sihan Fang: 540070866, Tuan Minh Le: 540847349">
+<meta name="author" content="Brace Liu: 540070866, Charlie Wilson: 540717178, Dan Samad: 5206245132, Ellery Prescott: 540697870, Sihan Fang: 540070866, Tuan Minh Le: 540847349">
 
 <title>DATA1001 Group 7 Project</title>
 <style>
@@ -3294,31 +3294,10 @@ border: 0;
 
 </head>
 
-<body>
+<body class="fullcontent">
 
 <div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
-<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-  <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table of contents</h2>
-   
-  <ul>
-  <li><a href="#recommendationinsight" id="toc-recommendationinsight" class="nav-link active" data-scroll-target="#recommendationinsight">Recommendation/Insight</a></li>
-  <li><a href="#evidence" id="toc-evidence" class="nav-link" data-scroll-target="#evidence">Evidence</a>
-  <ul class="collapse">
-  <li><a href="#ida" id="toc-ida" class="nav-link" data-scroll-target="#ida">IDA</a></li>
-  <li><a href="#does-stress-level-affect-participants-interest-level-in-data-science" id="toc-does-stress-level-affect-participants-interest-level-in-data-science" class="nav-link" data-scroll-target="#does-stress-level-affect-participants-interest-level-in-data-science">Does stress level affect participants’ interest level in data science ?</a></li>
-  <li><a href="#is-having-more-friends-associated-with-lower-stress" id="toc-is-having-more-friends-associated-with-lower-stress" class="nav-link" data-scroll-target="#is-having-more-friends-associated-with-lower-stress">Is having more friends associated with lower stress ?</a></li>
-  <li><a href="#articles" id="toc-articles" class="nav-link" data-scroll-target="#articles">Articles</a></li>
-  </ul></li>
-  <li><a href="#acknowledgements" id="toc-acknowledgements" class="nav-link" data-scroll-target="#acknowledgements">Acknowledgements</a>
-  <ul class="collapse">
-  <li><a href="#group-meetings" id="toc-group-meetings" class="nav-link" data-scroll-target="#group-meetings">Group meetings</a></li>
-  <li><a href="#contribution" id="toc-contribution" class="nav-link" data-scroll-target="#contribution">Contribution</a></li>
-  <li><a href="#resources-used" id="toc-resources-used" class="nav-link" data-scroll-target="#resources-used">Resources used</a></li>
-  </ul></li>
-  </ul>
-</nav>
-</div>
+
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
@@ -3333,7 +3312,7 @@ border: 0;
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Brace Liu: 540070866,Charlie Wilson: 540717178, Dan Samad: 5206245132, Ellery Prescott: 540697870, Sihan Fang: 540070866, Tuan Minh Le: 540847349 </p>
+             <p>Brace Liu: 540070866, Charlie Wilson: 540717178, Dan Samad: 5206245132, Ellery Prescott: 540697870, Sihan Fang: 540070866, Tuan Minh Le: 540847349 </p>
           </div>
   </div>
     
@@ -3355,8 +3334,6 @@ border: 0;
 <section id="ida" class="level2">
 <h2 class="anchored" data-anchor-id="ida">IDA</h2>
 <div class="cell">
-<details class="code-fold">
-<summary>Code</summary>
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(kableExtra)</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -3377,7 +3354,6 @@ border: 0;
 <span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kable_styling</span>(<span class="at">bootstrap_options =</span> <span class="fu">c</span>(<span class="st">&quot;striped&quot;</span>, <span class="st">&quot;hover&quot;</span>, <span class="st">&quot;condensed&quot;</span>, <span class="st">&quot;responsive&quot;</span>), <span class="at">position =</span> <span class="st">&quot;center&quot;</span>) <span class="sc">%&gt;%</span> </span>
 <span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kable_minimal</span>(<span class="at">full_width =</span> F) <span class="sc">%&gt;%</span> </span>
 <span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scroll_box</span>(<span class="at">width =</span> <span class="st">&quot;100%&quot;</span>, <span class="at">height =</span> <span class="st">&quot;400px&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
 <div class="cell-output-display">
 <div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:400px; overflow-x: scroll; width:100%; ">
 <div class="table-responsive">
@@ -6023,8 +5999,6 @@ border: 0;
 <h2 class="anchored" data-anchor-id="does-stress-level-affect-participants-interest-level-in-data-science">Does stress level affect participants’ interest level in data science ?</h2>
 <p>It is recommended that students approach Data Science with an open mind in order to minimize stress level. Figure 1 presents a histogram investigating the relationship between Stress level 0-10 (Quantitative discrete) and Interest in Data Science 0-10 (Quantitative Discrete). At stress level 0 the median data interest is 6.5 and at stress level 10 the median data interest decreases to 5. In alignment with the ‘HowULearn’ (2016) Study from University of Helsinki referenced in the ScienceDirect Article titled ‘University students interest and burnout profiles and their relation to approaches to learning and achievement’, University students with higher cynicism to learning represented higher levels of exhaustion. This is referenced with figure 2 as stress level 10 exhibits a decreased median interest in data science of 5. Limitations of the graphical summaries (Fig. 1 and 2) provided include confounding variables such as date of study prior to any exam period potentially reducing median stress level, as well as previous studies of data science which may have overlapped with current content reducing workload stress. Thus, Figures 1 and 2 support the recommendation of open mindedness to Data Science in order to decrease stress, the recommendation remains reliable based on external studies such as the “HowULearn” Study from University of Helsinki.</p>
 <div class="cell">
-<details class="code-fold">
-<summary>Code</summary>
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>survey_data <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">&quot;data1001_survey_data.csv&quot;</span>)</span>
@@ -6050,7 +6024,6 @@ border: 0;
 <span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
 <span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_linedraw</span>() <span class="sc">+</span></span>
 <span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">&quot;right&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -6058,8 +6031,6 @@ border: 0;
 </figure>
 </div>
 </div>
-<details class="code-fold">
-<summary>Code</summary>
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(survey_data, <span class="fu">aes</span>(<span class="at">x =</span> data_interest._1, <span class="at">y =</span> si_1)) <span class="sc">+</span> </span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>(<span class="fu">aes</span>(<span class="at">color =</span> <span class="st">&quot;#ADD8E6&quot;</span>)) <span class="sc">+</span> </span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
@@ -6072,7 +6043,6 @@ border: 0;
 <span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">limits =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="dv">10</span>), </span>
 <span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>    <span class="at">breaks =</span> <span class="fu">seq</span>(<span class="dv">0</span>, <span class="dv">10</span>, <span class="dv">1</span>)</span>
 <span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>  ) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -6086,8 +6056,6 @@ border: 0;
 <h2 class="anchored" data-anchor-id="is-having-more-friends-associated-with-lower-stress">Is having more friends associated with lower stress ?</h2>
 <p>It is recommended in order to decrease stress level in studies of Data Science to make more friends for social and study purposes. The residual plot (Figure 1) shows constant homoscedasticity indicating that linear regression should be appropriate. Figure 2 represents friend count against stress level in a scatterplot with a regression line. The Correlation Coefficient (r) in figure 2 is -0.17, indicating a weak negative correlation between the two variables. The least squares regression line has a steady downward slope indicating a negative linear relationship, supporting the hypothesis that decreasing friends results in increasing stress level. These findings are directly supported by the USA National Library of Medicine, stating “Building robust social bonds among classmates within educational institutions can reduce stress”, explored in their mass data summation, “The Benefits of Friendships in Academic Settings: A Systematic Review and Meta-Analysis” (2023). Limitations within this data may include social desirability bias, where number of friends may have been recorded incorrectly due to desirability of a socially acceptable amount of friends at USYD. In summation the data presented shows an increase in stress level as friend count lowers encouraging the initial suggestion of making more friends in order to decrease stress levels.</p>
 <div class="cell">
-<details class="code-fold">
-<summary>Code</summary>
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>survey_data <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">&quot;data1001_survey_data.csv&quot;</span>)</span>
@@ -6107,7 +6075,6 @@ border: 0;
 <span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>             <span class="at">colour =</span> <span class="st">&quot;black&quot;</span>) <span class="sc">+</span></span>
 <span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">&quot;Residuals vs. Fitted Values for Friends Count Based on Stress level&quot;</span>, <span class="at">subtitle=</span><span class="st">&quot;Fig_1&quot;</span>) <span class="sc">+</span></span>
 <span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">panel.background =</span> <span class="fu">element_rect</span>(<span class="at">fill =</span> <span class="st">&quot;linen&quot;</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -6115,15 +6082,12 @@ border: 0;
 </figure>
 </div>
 </div>
-<details class="code-fold">
-<summary>Code</summary>
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(survey_data, <span class="fu">aes</span>(<span class="at">x=</span>si_1, <span class="at">y=</span>friends_count, <span class="at">color =</span> <span class="st">&quot;#ADD8E6&quot;</span>)) <span class="sc">+</span> <span class="co"># Specify x and y variables</span></span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span> <span class="co"># Create scatter plot</span></span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_smooth</span>(<span class="at">method=</span><span class="st">&quot;lm&quot;</span>, <span class="at">se=</span><span class="cn">FALSE</span>, <span class="at">color =</span> <span class="st">&quot;blue&quot;</span>) <span class="sc">+</span> <span class="co"># Add line of best fit</span></span>
 <span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x=</span><span class="st">&quot;Stress level&quot;</span>, <span class="at">y=</span><span class="st">&quot;Firend Counts&quot;</span>, <span class="at">title=</span><span class="st">&quot;Friends Count vs Stress level&quot;</span>, <span class="at">subtitle=</span><span class="st">&quot;Fig_2&quot;</span>)<span class="sc">+</span></span>
 <span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_x_continuous</span>(<span class="at">limits =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="dv">10</span>), <span class="at">breaks =</span> <span class="fu">seq</span>(<span class="dv">0</span>, <span class="dv">10</span>, <span class="dv">1</span>)) <span class="sc">+</span></span>
 <span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">plot.background =</span> <span class="fu">element_rect</span>(<span class="at">fill =</span> <span class="st">&quot;lightblue&quot;</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
 <div class="cell-output cell-output-stderr">
 <pre><code>`geom_smooth()` using formula = &#39;y ~ x&#39;</code></pre>
 </div>
